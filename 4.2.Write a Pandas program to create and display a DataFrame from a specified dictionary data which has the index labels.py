@@ -12,3 +12,12 @@ print(df)
 # Write a Pandas program to change the name 'James' to 'Suresh' in name column of the DataFrame.
 df.replace({'name': {'James': 'Suresh'}}, inplace=True)
 df
+# Write a Pandas program to insert a new column in existing DataFrame.
+df['grade'] = ['A','B','A','C','B','A','B','C','C','A']
+df
+# Write a Pandas program to get list from DataFrame column headers.
+columns_list = list(df.columns)
+print(columns_list)
+# To find and display the data types of each column in a DataFrame.
+dtypes = df.dtypes
+dtypes
