@@ -1,4 +1,5 @@
 # Write a Pandas program to create and display a DataFrame from a specified dictionary data which has the index labels.
+
 import pandas as pd
 import numpy as np
 exam_data = {'name':
